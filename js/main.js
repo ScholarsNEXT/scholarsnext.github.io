@@ -241,7 +241,7 @@ $(window).load(function(){
 	function init_map() {
     var myOptions = {
         zoom: 14,
-        center: new google.maps.LatLng(40.801485408197856, -73.96745953467104), //change the coordinates
+        center: new google.maps.LatLng(38.9895995, -76.9491657), //change the coordinates
         mapTypeId: google.maps.MapTypeId.ROADMAP,
 		scrollwheel: false,
 		styles: [{featureType:'all',stylers:[{saturation:-100},{gamma:0.50}]}]
@@ -249,10 +249,10 @@ $(window).load(function(){
     map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
     marker = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(40.801485408197856, -73.96745953467104) //change the coordinates
+        position: new google.maps.LatLng(38.9895995, -76.9491657) //change the coordinates
     });
     infowindow = new google.maps.InfoWindow({
-        content: "<b>Evential 2014</b><br/>1571 Hidden Terrace<br/> New York"  //add your address
+        content: "<b>Samuel Riggs IV Alumni Center</b><br/>7801 Alumni Drive<br/> College Park, MD"  //add your address
     });
     google.maps.event.addListener(marker, "click", function () {
         infowindow.open(map, marker);
