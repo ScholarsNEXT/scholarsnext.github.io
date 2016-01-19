@@ -251,10 +251,10 @@ $(window).load(function(){
     map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
     marker = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(38.9895995, -76.9491657) //change the coordinates
+        position: new google.maps.LatLng(38.992276, -76.943867) //change the coordinates
     });
     infowindow = new google.maps.InfoWindow({
-        content: "<b>Samuel Riggs IV Alumni Center</b><br/>7801 Alumni Drive<br/> College Park, MD"  //add your address
+        content: "<b>ScholarsNEXT</b><br/>1134 Cumberland Hall<br/>University of Maryland<br/>College Park, MD 20742"  //add your address
     });
     google.maps.event.addListener(marker, "click", function () {
         infowindow.open(map, marker);

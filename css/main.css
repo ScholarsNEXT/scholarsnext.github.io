@@ -684,7 +684,7 @@ h4 {
 .contact {
 	padding:15px;
 	margin:0 15px 0 10px;
-	height:576px;
+	height:600px; /*576px;*/
 	position:absolute;
 	bottom:0;
 }
@@ -698,8 +698,8 @@ h4 {
 }
 
 #contact .address {
-	font-size:21px;
-	margin:20px 0;
+	font-size: 17px; /*21px;*/
+	margin: 14px 0; /*20px 0;*/
 }
 
 #contact .social {
@@ -709,7 +709,7 @@ h4 {
 
 #gmap_canvas {
 	position:relative;
-	height:576px;
+	height:600px;/*576px;*/
 	width:100%;
 }
 
