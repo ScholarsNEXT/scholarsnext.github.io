@@ -52,11 +52,60 @@
                     <h4>Traveling by Car</h4>
                     (Selected the wrong option? <a href="select.html">Click here</a> to go back!)<br><br>
                     
-                    Click the <b>More options</b> link on the map below to get the full map and directions!
-                    <br><br>
+                    <ul class="nav nav-tabs">
+                      <li role="presentation" class="active"><a href="#mapdirections" aria-controls="home" role="tab" data-toggle="tab">Map and Directions</a></li>
+                      <li role="presentation"><a href="#parking" role="tab" data-toggle="tab">Parking</a></li>
+                    </ul>
                     
-                    <iframe width="600" height="450" frameborder="0" style="border:0" 
-                        src="https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJleAvQDG3t4kRrWsHbQGvaEE&destination=place_id:ChIJEbiJq5nGt4kRWBEzv-7ywbU&key=AIzaSyAMmdfV839EHzcfsBFXWy-Qw6K0jdjNqWY" allowfullscreen></iframe>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="mapdirections">
+                            Click the <b>More options</b> link on the map below to get the full map and directions!
+                            <br><br>
+                            
+                            <iframe width="600" height="450" frameborder="0" style="border:0" 
+                                src="https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJleAvQDG3t4kRrWsHbQGvaEE&destination=place_id:ChIJEbiJq5nGt4kRWBEzv-7ywbU&key=AIzaSyAMmdfV839EHzcfsBFXWy-Qw6K0jdjNqWY" allowfullscreen></iframe>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="parking">
+                            Free parking is available after 4 PM in certain parking lots on campus.
+                            <br><br>
+                            We recommend parking in either <b>Lot 1b</b>, <b>Lot Z</b>, or
+                            <b>Lot 1d</b> if the first two lots are full.
+                            <br><br>
+                            
+                            <ul class="nav nav-pills">
+                              <li role="presentation" class="active"><a href="#lot1b" aria-controls="home" role="tab" data-toggle="pill">Lot 1b</a></li>
+                              <li role="presentation"><a href="#lotz" role="tab" data-toggle="pill">Lot Z</a></li>
+                              <li role="presentation"><a href="#lot1d" role="tab" data-toggle="pill">Lot 1d</a></li>
+                            </ul>
+                            
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade active" id="lot1b">
+                                    test1
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="lotz">
+                                    test2
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="lot1d">
+                                    test3
+                                </div>
+                            </div>
+                            
+                            <b>Lot 1b:</b><br>
+                            <iframe width="600" height="450" frameborder="0" style="border:0"
+src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJacUqApHGt4kRHTSnzg_75dg&key=AIzaSyAMmdfV839EHzcfsBFXWy-Qw6K0jdjNqWY" allowfullscreen></iframe>
+                            <br>
+                            
+                            <b>Lot Z:</b><br>
+                            <iframe width="600" height="450" frameborder="0" style="border:0"
+src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJNeZEl5DGt4kRl1-NX7gHWHw&key=AIzaSyAMmdfV839EHzcfsBFXWy-Qw6K0jdjNqWY" allowfullscreen></iframe>
+                            <br>
+                            
+                            <b>Lot 1d:</b><br>
+                            <iframe width="600" height="450" frameborder="0" style="border:0"
+src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJA10drpHGt4kRhIJaYIHF8Tc&key=AIzaSyAMmdfV839EHzcfsBFXWy-Qw6K0jdjNqWY" allowfullscreen></iframe>
+                            <br>
+                        </div>
                 </div>
             </div>
         </div>
