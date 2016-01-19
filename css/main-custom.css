@@ -1,3 +1,8 @@
 .top-nav-collapse {
     background-color: #FF9900;
 }
+
+.dropdown-menu, .dropdown-menu li a {
+    max-width: 300px;
+    white-space: normal;
+}
