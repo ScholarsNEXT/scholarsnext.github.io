@@ -35,6 +35,7 @@ jQuery(document).ready(function($) {
 	
 	//MAGNIFIC POPUP LOAD CONTENT VIA AJAX
 	$('.speaker-detail').magnificPopup({type: 'ajax'});
+    $('.directions').magnificPopup({type: 'ajax'});
 	$('.register').magnificPopup({type: 'ajax'});	
  	
 	//MAGNIFIC POPUP IMAGE
