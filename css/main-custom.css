@@ -6,3 +6,9 @@
     /*max-width: 300px;*/
     white-space: normal;
 }
+
+iframe {
+    background-image: url("../img/ripple.gif");   
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
