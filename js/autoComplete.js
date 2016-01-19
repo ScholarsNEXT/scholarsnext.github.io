@@ -31,7 +31,8 @@ function initAutocomplete() {
       marker.setMap(null);
     });
     markers = [];
-
+    
+    /*
     // For each place, get the icon, name and location.
     var bounds = new google.maps.LatLngBounds();
     places.forEach(function(place) {
@@ -59,6 +60,7 @@ function initAutocomplete() {
       }
     });
     map.fitBounds(bounds);
+    */
     
     if (places.length == 1) {
         document.getElementById("hotel-search").href = "http://maps.google.com/maps?saddr=" + input.value + "&daddr=7801 Alumni Drive, College Park, MD 20742";
