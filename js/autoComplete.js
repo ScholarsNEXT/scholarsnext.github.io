@@ -1,7 +1,7 @@
 function initAutocomplete() {
   var map = new google.maps.Map(document.getElementById('hotelmap'), {
     center: {lat: 38.9875, lng: -76.9400},
-    zoom: 10,
+    zoom: 13,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
 
