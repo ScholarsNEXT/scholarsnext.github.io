@@ -13,7 +13,7 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-#pac-input {
+#hotel-input {
   background-color: #fff;
   font-size: 12px;
   font-weight: 300;
@@ -23,7 +23,7 @@
   width: 100px;
 }
 
-#pac-input:focus {
+#hotel-input:focus {
   border-color: #4d90fe;
 }
 
