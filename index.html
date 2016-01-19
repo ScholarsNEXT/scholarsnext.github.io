@@ -427,7 +427,10 @@
                     	<h4>Route from hotel</h4>
                         <b>Where are you coming from?</b>
                         <p>Enter your hotel name to get directions.</p>
-                        <input id="hotel-input" class="addressinput" type="text" placeholder="Enter your hotel here...">
+                        <form action="http://maps.google.com/maps" method="get" target="_blank">
+                            <input id="saddr" class="hotelinput" type="text" placeholder="Enter your hotel here...">
+                            <input type="hidden" name="daddr" value="Samuel Riggs IV Alumni Center, 7801 Alumni Drive, College Park, MD 20742" />
+                        </form>
                         <div id="hotelmap"></div>
                     </div>
                     

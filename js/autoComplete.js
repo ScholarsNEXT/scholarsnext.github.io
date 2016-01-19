@@ -1,12 +1,12 @@
 function initAutocomplete() {
   var map = new google.maps.Map(document.getElementById('hotelmap'), {
     center: {lat: 38.9875, lng: -76.9400},
-    zoom: 13,
+    zoom: 12,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
 
   // Create the search box and link it to the UI element.
-  var input = document.getElementById('hotel-input');
+  var input = document.getElementByClassName('hotelinput');
   var searchBox = new google.maps.places.SearchBox(input);
   //map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
 
