@@ -29,5 +29,15 @@ function stew_veggies() {
     if ($('#revealci').hasClass("btn-info")) $('#revealci').removeClass("btn-info");
     $('#revealci').addClass("btn-warning")
     $('#revealci').html("Almost there - click one more time!");
-    $('#revealci').click(defrost_chicken);
+    $('#revealci').click(open_the_freezer);
+}
+
+function open_the_freezer() {
+    $('#revealci').addClass("disabled")
+    $('#contactinfo').fadeOut(500, take_out_the_chicken);
+}
+
+function take_out_the_chicken() {
+    defrost_chicken();
+    $('#contactinfo').fadeIn(500);
 }
