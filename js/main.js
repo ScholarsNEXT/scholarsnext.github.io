@@ -156,8 +156,9 @@ $(window).load(function(){
 	$(window).stellar({
 		horizontalScrolling: false,
 	});
-    
 	
+    $('#revealci').click(preheat_oven);
+    
     //PRELOADER
     $('#preload').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
 	
