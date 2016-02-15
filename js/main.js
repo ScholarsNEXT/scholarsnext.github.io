@@ -173,6 +173,10 @@ $(window).load(function(){
 		}
 	});
 
+    // open content that matches the hash
+    var hash = window.location.hash;
+    var thash = hash.substring(hash.lastIndexOf('#'), hash.length);
+    if (thash == "#rsvp") $('#rsvpbtn').trigger('click');
 });
 
 	//GOOGLE MAP
